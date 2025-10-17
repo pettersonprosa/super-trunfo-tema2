@@ -1,0 +1,56 @@
+# .gitignore para projeto em C (super-trunfo)
+# Ignorar binários e artefatos de compilação
+/bin/
+/build/
+/out/
+/obj/
+*.o
+*.obj
+*.exe
+*.out
+a.out
+*.elf
+*.so
+*.a
+*.lib
+*.dll
+
+a.out
+*.out
+super_trunfo
+super_trunfo.bin
+*.exe
+
+# Arquivos de depuração e core dumps
+*.dSYM/
+core
+*.core
+*.stackdump
+
+# Cobertura de código
+*.gcda
+*.gcno
+*.gcov
+coverage/
+
+# Arquivos de dependências gerados por compiladores
+*.d
+compile_commands.json
+
+# Arquivos de IDE/Editor
+.vscode/
+.idea/
+*.sublime-*
+*.code-workspace
+
+# Arquivos temporários do editor e do sistema
+*~
+*.swp
+.DS_Store
+Thumbs.db
+
+# Outros gerados
+tags
+cscope.*
+*.log
+
