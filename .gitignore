@@ -19,6 +19,8 @@ a.out
 *.out
 super_trunfo
 super_trunfo.bin
+super_trunfo_tema3
+super_trunfo_tema3.bin
 *.exe
 
 # Arquivos de depuração e core dumps
